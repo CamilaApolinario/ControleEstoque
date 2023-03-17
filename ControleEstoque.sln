@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleEstoque", "ControleEstoque\ControleEstoque.csproj", "{3154455D-4B97-4C78-9F49-FC24808956DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{444C602A-F3EF-41FC-91DD-D7E6A278A21D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F27DD4DB-7853-41FB-9977-39B97D614106}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleEstoque.Domain", "ControleEstoque.Domain\ControleEstoque.Domain.csproj", "{9BEB43EE-B79E-485C-A16C-7CBDD1B54630}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{F4F3E94B-C9D6-429B-85EA-5E8806D6FD49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleEstoque.Infra", "ControleEstoque.Infra\ControleEstoque.Infra.csproj", "{49FE1BFD-6ED7-44C2-A5FB-429C066D359A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{2913957D-932E-47A8-9741-F2FC50791A92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleEstoque.Service", "ControleEstoque.Service\ControleEstoque.Service.csproj", "{810191A4-8F77-449A-9903-DE6F7E69E3ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{76D62A30-7AE2-479E-939B-003AC5F46F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleEstoque.Test", "ControleEstoque.Test\ControleEstoque.Test.csproj", "{F9A99BF2-187C-45B7-9363-8B615F07EF5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3154455D-4B97-4C78-9F49-FC24808956DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3154455D-4B97-4C78-9F49-FC24808956DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3154455D-4B97-4C78-9F49-FC24808956DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3154455D-4B97-4C78-9F49-FC24808956DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BEB43EE-B79E-485C-A16C-7CBDD1B54630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEB43EE-B79E-485C-A16C-7CBDD1B54630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEB43EE-B79E-485C-A16C-7CBDD1B54630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEB43EE-B79E-485C-A16C-7CBDD1B54630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FE1BFD-6ED7-44C2-A5FB-429C066D359A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FE1BFD-6ED7-44C2-A5FB-429C066D359A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FE1BFD-6ED7-44C2-A5FB-429C066D359A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FE1BFD-6ED7-44C2-A5FB-429C066D359A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810191A4-8F77-449A-9903-DE6F7E69E3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810191A4-8F77-449A-9903-DE6F7E69E3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810191A4-8F77-449A-9903-DE6F7E69E3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810191A4-8F77-449A-9903-DE6F7E69E3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A99BF2-187C-45B7-9363-8B615F07EF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A99BF2-187C-45B7-9363-8B615F07EF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A99BF2-187C-45B7-9363-8B615F07EF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A99BF2-187C-45B7-9363-8B615F07EF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3154455D-4B97-4C78-9F49-FC24808956DA} = {444C602A-F3EF-41FC-91DD-D7E6A278A21D}
+		{9BEB43EE-B79E-485C-A16C-7CBDD1B54630} = {F27DD4DB-7853-41FB-9977-39B97D614106}
+		{49FE1BFD-6ED7-44C2-A5FB-429C066D359A} = {F4F3E94B-C9D6-429B-85EA-5E8806D6FD49}
+		{810191A4-8F77-449A-9903-DE6F7E69E3ED} = {2913957D-932E-47A8-9741-F2FC50791A92}
+		{F9A99BF2-187C-45B7-9363-8B615F07EF5B} = {76D62A30-7AE2-479E-939B-003AC5F46F73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E74AC19-3EFA-4E44-9728-DCB81637B67A}
+	EndGlobalSection
+EndGlobal

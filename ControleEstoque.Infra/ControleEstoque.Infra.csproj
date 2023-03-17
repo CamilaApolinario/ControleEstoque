@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Data\Migrations\20230316141355_Inicial.cs" />
+    <Compile Remove="Data\Migrations\20230316141355_Inicial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20230316143619_Inicial.cs" />
+    <Compile Remove="Data\Migrations\20230316143619_Inicial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleEstoque.Domain\ControleEstoque.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
